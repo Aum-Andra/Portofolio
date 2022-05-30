@@ -22,7 +22,7 @@ export default function Home() {
       image: InterV,
       description:
         "A movie finder application using React hooks and the API from TMDB.The application shows the most popular movies of the respective day,the option to see movies from the next page and can be used to search for any movie or series on the TMDB database by changing the state of the homepage to whatever is searched for.",
-      link: "https://lambent-valkyrie-e0dffb.nehttpstlify.app/",
+      link: "https://lambent-valkyrie-e0dffb.netlify.app/",
       github: "https://github.com/Aum-Andra/Inter-Vision",
       apps: ["HTML CSS  API REACT"],
       id: 1,

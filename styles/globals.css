@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Prata&display=swap');
-html,
+
 body {
+  font-family: 'Lato', sans-serif; 
+}
+*{
   padding: 0;
-  margin: 0;
-  font-family: 'Lato', sans-serif;
-  
+  margin: 0 ;
+  box-sizing: border-box;
 }
 
 :root{
@@ -277,6 +279,9 @@ footer p{
 
 /* responsive */
 @media only screen and (max-width: 800px) {
+  body{
+    min-width: 500px;
+  }
  nav{
    position: relative;
    justify-content: space-between;
@@ -316,6 +321,7 @@ footer p{
     color: var(--white-color);
    
   }
+  
   #about{
     height: 100vh;
   }
@@ -334,6 +340,13 @@ footer p{
   .about .intro .headings{
     text-align: center;
   }
+  .about .about-card{
+    height: 100px;
+  }
+  .about p{
+font-size: 1.1rem;
+  }
+  
   .card{
     width: 430px;
     height: 800px;

@@ -145,7 +145,7 @@ export default function Home() {
         <h1>Send me an e-mail if you have any questions</h1>
         <div className="form">
           <form
-            action="https://formsubmit.co/ andra.aum@gmail.com"
+            action="https://formsubmit.co/andra.aum@gmail.com"
             method="POST"
           >
             <input

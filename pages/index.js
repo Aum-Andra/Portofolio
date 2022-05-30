@@ -11,7 +11,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
-import { faLaptopMobile } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 
 export default function Home() {
@@ -102,7 +101,7 @@ export default function Home() {
           <div className="about">
             <div className="intro">
               <div className="headings">
-                <h1 className="name">Hello, I'm Andra</h1>
+                <h1 className="name">Hello,I am Andra</h1>
               </div>
 
               <div className="para">

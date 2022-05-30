@@ -175,7 +175,9 @@ export default function Home() {
           </form>
         </div>
       </section>
-      <footer>Copyright &copy; 2022 Golumbeanu Aum Andra</footer>
+      <footer>
+        <p>Copyright &copy; 2022 Golumbeanu Aum Andra</p>
+      </footer>
     </section>
   );
 }

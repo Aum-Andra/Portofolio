@@ -271,8 +271,9 @@ footer{
   background-color: var(--black-color);
   color: var(--white-color);
   text-align: center;
+}
+footer p{
   padding-top: 1.3rem;
-  
 }
 
 /* responsive */

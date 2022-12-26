@@ -1,6 +1,8 @@
 import InterV from "../components/img/InterVision.png";
 import Quiz from "../components/img/TriviaQuiz.png";
 import Imperial from "../components/img/Imperial.png";
+import SocialMedia from "../components/img/SocialMedia.png";
+import AuthRN from "../components/img/ReactNativeAuth.jpg";
 import Card from "../components/card";
 import profile from "../components/img/profil.png";
 import Image from "next/image";
@@ -18,6 +20,26 @@ export default function Home() {
 
   const Data = [
     {
+      name: "React Native Auth",
+      image: AuthRN,
+      description:
+        "A simple login interface for the mobile using react native and the firebase api.",
+      link: "",
+      github: "https://github.com/Aum-Andra/react-native-auth",
+      apps: ["React Native  Firebase"],
+      id: 1,
+    },
+    {
+      name: "MementoCode Small Social Media",
+      image: SocialMedia,
+      description:
+        "A small social media application that uses angular for the frontend and firebase/firestore as backend.The users can create accounts, login, reset the password, make new posts and add comments to thise posts.",
+      link: "https://papaya-unicorn-cb8afd.netlify.app/",
+      github: "https://github.com/Aum-Andra/MementoCodeSocialMedia",
+      apps: ["Angular   Firebase"],
+      id: 2,
+    },
+    {
       name: "InterVision",
       image: InterV,
       description:
@@ -25,7 +47,7 @@ export default function Home() {
       link: "https://lambent-valkyrie-e0dffb.netlify.app/",
       github: "https://github.com/Aum-Andra/Inter-Vision",
       apps: ["HTML CSS  API REACT"],
-      id: 1,
+      id: 3,
     },
     {
       name: "Imperial Store",
@@ -35,7 +57,7 @@ export default function Home() {
       link: "https://shimmering-torrone-2c4d38.netlify.app/",
       github: "https://github.com/Aum-Andra/Imperial-Store",
       apps: ["HTML CSS REACT"],
-      id: 2,
+      id: 4,
     },
 
     {
@@ -46,7 +68,7 @@ export default function Home() {
       link: "https://memento-code-lk2986suu-aum-andra.vercel.app/",
       github: "https://github.com/Aum-Andra/MementoCode",
       apps: ["HTML CSS NEXT.JS CONTENTFUL"],
-      id: 3,
+      id: 5,
     },
     {
       name: "Trivia Quiz",
@@ -55,24 +77,24 @@ export default function Home() {
       link: "https://sunny-medovik-493c81.netlify.app/",
       github: "https://github.com/Aum-Andra/Trivia-Qiuz",
       apps: ["HTML CSS REACT"],
-      id: 4,
+      id: 6,
     },
   ];
   const info = [
     {
       title: "Technologies",
       id: 1,
-      body: "I am a detail-oriented Front End Developer with experience using HTML, CSS, JAVASCRIPT, REACT.js, NEXT.js and CONTENTFUL CMS.",
+      body: "I am a detail-oriented Front End Developer with experience using Javascript, ReactJS, Angular and React Native.",
     },
     {
       title: "Presentation",
       id: 2,
-      body: "Hardworking and passionate job seeker with strong organizational skills, eager to secure a front end job position. Ready to help the team achieve the company's goals.I'm an adept at independent projects who could also fit in any team,with an emphasis on website design & development.",
+      body: "Hardworking and passionate job seeker with strong organizational skills, eager to secure a front end job position. Ready to help the team achieve the company's goals. I'm an adept at independent projects who could also fit in any team, with an emphasis on website design & development.",
     },
     {
       title: "Personal Info",
       id: 3,
-      body: "My name is Aum Andra Maria Elena Golumbeanu.I'm 23 years old and I have a bachelor degree in computer science.I love reading books,fashion and bringing complex and beautiful user interfaces to the users screens. ",
+      body: "My name is Aum Andra Maria Elena Golumbeanu. I'm 23 years old and I have a bachelor degree in computer science.I love reading books, fashion and bringing complex and beautiful user interfaces to the users screens.",
     },
   ];
 

@@ -30,9 +30,6 @@ const Navbar = () => {
           <a onClick={() => setMenu(false)} href="#contact">
             Contact
           </a>
-          <a onClick={() => setMenu(false)} href="#">
-            Resume
-          </a>
         </div>
       )}
       <button onClick={() => handleClick()} className="menu-btn">

@@ -91,6 +91,7 @@ nav a:hover{
 #about{
 height: 51vh;
 position: relative;
+margin-bottom: 5rem;
 }
 #about h1{
   color: var(--black-color);
@@ -339,7 +340,7 @@ footer p{
     text-align: center;
   }
   .about .about-card{
-    height: 100px;
+    height: 200px;
   }
   .about p{
 font-size: 1.1rem;

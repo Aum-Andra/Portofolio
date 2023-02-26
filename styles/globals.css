@@ -369,7 +369,8 @@ footer p{
 /* responsive */
 @media only screen and (max-width: 800px) {
   body{
-    min-width: 500px;
+    width: 100%;
+    overflow-x: hidden;
   }
  nav{
    position: relative;

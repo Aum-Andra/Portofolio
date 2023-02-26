@@ -435,6 +435,14 @@ footer p{
   .about p{
 font-size: 1.1rem;
   }
+
+  .scroll-arrow {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: fadeBounce 1.5s infinite;
+  }
   
   /* .card{
     width: 350px;

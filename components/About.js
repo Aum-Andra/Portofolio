@@ -29,7 +29,7 @@ const About = () => {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: false, amount: 0.6 }}
-        className="flex-1 h-full xl:mt-48"
+        
       >
         <div className="about-me-card">
           <div className="about-me-header">

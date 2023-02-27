@@ -1,5 +1,7 @@
 const Footer = () => {
-  return <footer></footer>;
+  return <footer>
+  <p>Copyright &copy; 2022 Golumbeanu Aum Andra</p>
+</footer>;
 };
 
 export default Footer;

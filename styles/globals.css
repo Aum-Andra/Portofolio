@@ -110,6 +110,7 @@ margin-bottom: 5rem;
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  overflow-y: hidden;
 
 }
 .image-container{
@@ -412,30 +413,15 @@ footer p{
    
   }
   
-  #about{
-    height: 100vh;
-  }
   .about-container{
+    height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     text-align: center;
+    overflow-y: hidden;
   }
- .intro{
-   margin-top: 0;
- }
-  .about .intro{
-    text-align: left;
-    padding: 0.5rem 1rem;
-  }
-  .about .intro .headings{
-    text-align: center;
-  }
-  .about .about-card{
-    height: 200px;
-  }
-  .about p{
-font-size: 1.1rem;
-  }
+ 
 
   .scroll-arrow {
     position: absolute;
@@ -445,29 +431,7 @@ font-size: 1.1rem;
     animation: fadeBounce 1.5s infinite;
   }
   
-  /* .card{
-    width: 350px;
-    height: 200px;
-    
-  }
-  .card-container{
-    width: 350px;
-    height: 200px;
-    text-align: center;
-    padding: 1rem;
-  }
-  .card .content{
-    width: 400px;
-    height: 400px;
-    top: 25%;
-    left: 4%;
-    text-align: start;
-    
-  }
-  .card .card-img {
-    width: 300px;
-    
-  } */
+ 
   .form{
     padding: 1rem;
   }

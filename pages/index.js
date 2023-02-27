@@ -12,6 +12,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import About from "../components/About";
+import Footer from "../components/Footer";
 
 export default function Home() {
   const Data = [
@@ -148,9 +149,6 @@ export default function Home() {
           </form>
         </div>
       </section>
-      <footer>
-        <p>Copyright &copy; 2022 Golumbeanu Aum Andra</p>
-      </footer>
     </section>
   );
 }

@@ -75,7 +75,7 @@ export default function Home() {
               <FontAwesomeIcon className="icon" icon={faGithub} />
             </a>
           </Link>
-          <Link href="https://www.linkedin.com/in/aum-golumbeanu-311240236/">
+          <Link href="https://be.linkedin.com/in/aum-andra-golumbeanu-311240236">
             <a>
               <FontAwesomeIcon icon={faLinkedin} className="icon" />
             </a>
